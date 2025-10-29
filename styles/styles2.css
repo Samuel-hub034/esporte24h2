@@ -1,0 +1,30 @@
+:root {
+  --cor-primaria: #fb1a09;
+  --cor-secundaria: white;
+  --cor-tercearia: #f8f9fa;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+#esportered {
+  color: var(--cor-primaria);
+}
+.button {
+  border: none;
+  background-color: var(--cor-tercearia);
+}
+footer {
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+}
+.esportes24hfooter {
+  padding-left: 10px;
+}
+.sobrenos {
+  text-align: center;
+}
+.bolafut {
+  width: 35px;
+  height: 35px;
+}

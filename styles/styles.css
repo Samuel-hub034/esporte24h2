@@ -1,0 +1,56 @@
+:root {
+  --cor-primaria: #fb1a09;
+  --cor-secundaria: white;
+  --cor-tercearia: #f8f9fa;
+}
+
+#cardflex {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+}
+#esportered {
+  color: var(--cor-primaria);
+}
+.carroselcolor {
+  color: var(--cor-secundaria);
+  font-weight: bold;
+}
+footer {
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+}
+.esportes24hfooter {
+  padding-left: 10px;
+}
+
+.card {
+  margin-top: 10px;
+}
+.button {
+  border: none;
+  background-color: var(--cor-tercearia);
+}
+.bolafut {
+  width: 35px;
+  height: 35px;
+}
+
+#cardflex {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.card-body {
+  text-align: center;
+}
