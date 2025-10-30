@@ -44,6 +44,7 @@ footer {
   gap: 25px;
   margin-bottom: 10px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .card {
   display: flex;
@@ -54,3 +55,4 @@ footer {
 .card-body {
   text-align: center;
 }
+
